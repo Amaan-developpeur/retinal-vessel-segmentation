@@ -34,18 +34,6 @@ The model showed high pixel-wise accuracy and moderate IoU performance despite t
 
 Visual results include predicted vessel masks overlaid on original fundus images, indicating the model's ability to detect major vessel structures with reasonable precision.
 
----
-
-## 📁 Dataset Structure
-
-After downloading from Kaggle, organize the dataset as follows:
-dataset/
-train/
-├── images/
-└── masks/
-test/
-├── images/
-└── masks/
 
 
 ## Install Dependencies
