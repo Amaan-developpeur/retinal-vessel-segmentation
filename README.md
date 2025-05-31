@@ -40,12 +40,13 @@ Visual results include predicted vessel masks overlaid on original fundus images
 
 After downloading from Kaggle, organize the dataset as follows:
 dataset/
-├── train/
-│ ├── images/
-│ └── masks/
-├── test/
-│ ├── images/
-│ └── masks/
+train/
+├── images/
+└── masks/
+test/
+├── images/
+└── masks/
+
 
 ## Install Dependencies
 pip install -r requirements.txt
