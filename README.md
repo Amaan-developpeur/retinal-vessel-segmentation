@@ -4,13 +4,13 @@ This project focuses on segmenting retinal blood vessels from fundus images usin
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Accurate segmentation of retinal blood vessels is a critical step in diagnosing diseases such as Diabetic Retinopathy and Glaucoma. This project serves as a hands-on application of deep learning for biomedical image segmentation and offers a solid baseline using a modern encoder-decoder structure.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Encoder:** EfficientNetB4 (pretrained on ImageNet)
 - **Decoder:** U-Net-style upsampling blocks
@@ -20,7 +20,7 @@ Accurate segmentation of retinal blood vessels is a critical step in diagnosing 
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 - **Validation Accuracy:** 95.57%
 - **Validation Loss:** 0.3514  
@@ -30,7 +30,7 @@ The model showed high pixel-wise accuracy and moderate IoU performance despite t
 
 ---
 
-## 🖼️ Sample Prediction
+##  Sample Prediction
 
 Visual results include predicted vessel masks overlaid on original fundus images, indicating the model's ability to detect major vessel structures with reasonable precision.
 
